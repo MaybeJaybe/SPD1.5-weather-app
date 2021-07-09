@@ -1,3 +1,12 @@
+Use React.js to build the OpenWeatherMap API to create a weather app. Allow anonymous users to input their mood each day corresponding to the weather.
+
+Turn in on gradescope - SPD 1.5. 
+Aim to spend < 3 hours on this project
+Record how much time you did end up spending on it
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
