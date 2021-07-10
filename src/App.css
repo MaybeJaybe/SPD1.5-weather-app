@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-
 .App-header {
   color: #eeeeee;
   background-color: #282c34;
@@ -17,13 +16,15 @@ main {
 footer {
   padding: 2px;
   min-height: 50px;
-  margin-top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: #eeeeee;
   font-size: small;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 header {
   padding: 25px;

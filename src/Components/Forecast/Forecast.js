@@ -7,9 +7,9 @@ const Forecast = () => {
     function getForecast() {
         // weather data
         const apiKey = "d4e894f20c01413fbfececd42de24a6a"
-        const cityName = "Seattle"
+        const city = "Seattle"
         const units = "imperial"
-        const path = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=${units}`
+        const path = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`
         fetch(path)
         .then(response => response.json())
         .then(json => setResponseObj(json))

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Forecast from './Components/Forecast/Forecast';
+import Mood from './Components/Mood/Mood';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </header>
       <main>
         <Forecast />
+        <Mood />
       </main>
       <footer>
         Mayberry Copyright
