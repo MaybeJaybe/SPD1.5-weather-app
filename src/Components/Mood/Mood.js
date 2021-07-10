@@ -14,6 +14,7 @@ const Mood = () => {
                 <form>
                     <label>What is your mood? </label>
                     <input type="text"
+                    class="text"
                     value={mood}
                     onChange={e => setMood(e.target.value)} />
                 </form>
@@ -25,10 +26,11 @@ const Mood = () => {
             <form>
                 <label>What is your mood? </label>
                 <input type="text"
+                class="text"
                 value={mood}
                 onChange={e => setMood(e.target.value)} />
             </form>
-            <p>The weather here's got you feeling {mood}, huh?</p>
+            <p class="display-mood">The weather here's got you feeling {mood}, huh?</p>
         </div>
     )
 }

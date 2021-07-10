@@ -25,6 +25,7 @@ const Forecast = () => {
     return (
          <div>
             <h2>Current Weather Conditions</h2>
+            <h3>In Seattle</h3>
             <div class="display-result">
                 {JSON.stringify(responseObj.main.temp)}
                 <p>&#176;F</p>
